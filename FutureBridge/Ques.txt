@@ -1,0 +1,172 @@
+ReactJs
+
+Virtual dom is the concept that is used by react to ensure smooth and quick update of 
+the elements in the dom.  It copies the actual representation of the dom and stores 
+it in its memory.Whenever rendering happens it updates the virtual dom and compares 
+the virtual dom with real dom and updates only those elements which are updated.
+
+The main difference between Es5 and Es6 are 
+Primitive data types: In Es6 apart from normal primitive data types a new data type “Symbol” is added.
+
+updating the state : In react state can be update differntly in different components.
+ for ex in the functional components the state of a component can easily updated by 
+ UseState hook and also for updating the states of the components that are deeply 
+ nested we can use global state management libraries like Redux. Apart from redux we 
+ can also use ContextAPi
+
+Adding multiple middlewares to redux : using redux thunk library we can add mulitple 
+middlewares.
+
+class App extends React.Component {
+constructor(props) {
+super(props);
+this.state = {
+name: this.props.name ||;Anonymous&; 
+// I think in the above line we need to write
+props.name rather than {this.props.name}
+}
+} render() {
+return (
+&lt;p&gt;Hello {this.state.name}&lt;/p&gt;
+);
+}
+}
+
+Can you explain the differences between all those ways. What
+happens when you click each of the buttons?
+
+class App extends React.Component {
+ 
+constructor() {
+super();
+this.name = &#39;MyComponent&#39;;
+ 
+this.handleClick2 = this.handleClick1.bind(this);
+}
+ 
+handleClick1() {
+alert(this.name);
+}
+ 
+handleClick3 = () =&gt; alert(this.name);render() {
+return (
+&lt;div&gt;
+
+&lt;button onClick={this.handleClick1()}&gt;click 1&lt;/button&gt;
+&lt;button onClick={this.handleClick1}&gt;click 2&lt;/button&gt;
+&lt;button onClick={this.handleClick2}&gt;click 3&lt;/button&gt;
+&lt;button onClick={this.handleClick3}&gt;click 4&lt;/button&gt;
+&lt;/div&gt;
+);
+}
+}
+
+click1: Error as we cannot directly invoke a function like we normally invoke. 
+click2: MyComponent
+click3: 
+click4: Mycomponent
+
+Why do we need a Router to React?
+
+as react is a single page application react-router helps to navigate entire application
+with different routes. Link, Navigate are some of the methods we can use to achive this.
+
+
+class components
+Stateful components. that doesn't require any hook .it can manage its state more easily 
+than the functional components. this components use javascript classes for creating react 
+components. This is little bit complex to write than to functional components
+
+functional components
+stateless components that require hooks like useState to manage the state of the components.
+Hooks are the only property of the fucntional components. this components are easy to
+understand and use simple javascript functions.
+
+
+render()
+
+render method in react helps in rendering a component in which it create html dom elements 
+with the help of Reac.createElement.
+
+
+NODEJS
+
+1. EventLoop:
+
+Eventloop is a mechanism that helps NODEJS in acheiving asynchronous operations without
+blocking the entire code.
+whenever NODEJS encounters the an operation which involves time connsuming or data fethcing related
+this events are not pushed into the callstack instead nodejs takes them as callback. 
+nodejs with the help of libuv perform the task in the background. and are pushed into 
+micro task queue and task queue in the order of their priority. once the entire 
+callstack is empty eventloop pushes the element that is present in the microstask 
+queue into the callstack.
+
+2. Promises
+
+promises helps to write clean code than callback. and it has only three stages 
+pending, fulfilled, rejected.
+which are easy to understand and to implement. the problem with the callbacks is the 
+callback hell which is in the shape of ">" which makes code difficult to understand.
+during this time promises comes to rescue. 
+
+
+3. create a simple server in Node.js that returns Hello World?
+
+const http = require('http')
+http.createServer((req,res)=> {
+    res.end("connected)
+})
+
+http.listen(5000)
+
+4. var fs = require('fs') valid way to import a module.
+
+5. module.export 
+
+6. All of the above. duplex,readable,writeable.
+
+7. Local
+
+8.node-static
+
+9.REPL - Read,Eval,Print,Loop
+
+10. console.log('platform :' + os.platform());
+
+
+
+// MongoDB
+
+1. Scalability, Sharding, cloud service, flexible scheme, collection-document basis.
+
+5. namespace is used when we have large set of collections and documents.
+it can be written as [collection name].[document name]
+
+6. yes,it is removed from the database.
+
+9. mongodb provides consistent flow of data even when some servers are not working by useing
+sharding.
+
+13. Mongodb is Nosql, collection-document based database with flexible schema that provides
+easy to use query syntax to query the data.
+
+14.Keyfeatures : collection-document based, flexile schema, sharding, scalability, 
+technical support, easy query syntax.
+
+15.CRUD - create,read,update and, delete.
+these are the basic operations that we use on database.
+create- POST
+Read - GET
+Update - PATCH/PUT
+Delete - DELETE
+
+16. Sharding the process of handling the large set of data in small packets in different
+servers inorder to provide fast and large data. Even when one server is not working
+as expected mongodb uses different servers thereby nnot halting the process.
+
+17. Aggregation is the process aggregating a set of data inorder to have conclusive database.
+like sorting,filter etcc.
+
+18. Namespace is the way of naming the colletions in the mongodb.
+

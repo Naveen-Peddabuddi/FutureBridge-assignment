@@ -1,0 +1,93 @@
+{
+    "MovieData" : [
+        {
+            "Name" : "Movie1",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },
+        {
+            "Name" : "Movie2",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },
+        {
+            "Name" : "Movie3",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },
+        {
+            "Name" : "Movie4",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },
+        {
+            "Name" : "Movie5",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },
+        {
+            "Name" : "Movie6",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie7",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie8",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie9",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie9",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie10",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie11",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie12",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie13",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie14",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        },{
+            "Name" : "Movie15",
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcZPPw-xfALc-9qbqGSlVL4lSIGVmJfhBQ&usqp=CAU",
+            "Rating" : 8,
+            "ReleaseDate" : "20/5/2021"
+        }
+
+    ]
+   
+
+}
